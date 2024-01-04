@@ -5,13 +5,11 @@ import StarsCanvas from "../StarBackground";
 const Hero: FC = (): ReactElement => {
   return (
     <div className="relative flex flex-col h-full w-full">
-      {/* <img src="/blackhole.webm" alt="" /> */}
       <video
         autoPlay
         muted
         loop
         className="rotate-180 absolute left-0 z-[1] object-cover top-[-400px]"
-        // src={require("@/public/blackhole.webm")}
       >
         <source src={require("@/public/blackhole.webm")} type="video/webm" />
       </video>
